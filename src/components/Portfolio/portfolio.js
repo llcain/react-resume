@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 
 import "./Portfolio.css";
@@ -13,7 +14,7 @@ const Portfolio = () => (
         <div className="card-content">
           <p>React</p>
           <p>Built using React</p>
-          <button className="btn card_btn">View</button>
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
       <div className="card">
@@ -23,7 +24,7 @@ const Portfolio = () => (
         <div className="card-content">
           <p>Wordpress</p>
           <p>This website was built with Wordpress</p>
-          <button className="btn card_btn">View</button>
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
       <div className="card">
@@ -33,7 +34,7 @@ const Portfolio = () => (
         <div className="card-content">
           <p>My Blog</p>
           <p>Built with Frontend technologies!</p>
-          <button className="btn card_btn">View</button>
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
       <div className="card">
@@ -43,7 +44,7 @@ const Portfolio = () => (
         <div className="card-content">
           <p>Portfolio</p>
           <p>Built with Frontend technologies!</p>
-          <button className="btn card_btn">View</button>
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
       <div className="card">
@@ -53,7 +54,7 @@ const Portfolio = () => (
         <div className="card-content">
           <p>To-Do List App</p>
           <p>Built HTML, CSS, JavaScript!</p>
-          <button className="btn card_btn">View</button>
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
       <div className="card">
@@ -63,7 +64,8 @@ const Portfolio = () => (
         <div className="card-content">
           <p>Carmel Cafe</p>
           <p>Built HTML, CSS, JavaScript</p>
-          <button className="btn card_btn">View</button>
+          {/* <button className="btn card_btn">View</button> */}
+          <Button variant="contained">Hello World</Button>
         </div>
       </div>
     </div>

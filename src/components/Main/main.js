@@ -19,9 +19,11 @@ for what you have tamed. You are responsible for your rose . . ."
   </article>
   <section class="side">
     <h1>About</h1>
+    
     <p>
       The Little Prince (French: Le Petit Prince), first published in 1943, is a novella and the most famous work of the French aristocrat, writer, poet and pioneering aviator Antoine de Saint-Exupéry (1900–1944).
     </p>
+   
   </section>
   </div>
 );

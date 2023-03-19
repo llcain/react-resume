@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.css";
 const Main = () => (
   <div className="main-content">
-    <article class="main">
+    <article className="main">
     <h1>The Little Prince</h1>
     <p>
     And he went back to meet the fox.
@@ -17,7 +17,7 @@ for what you have tamed. You are responsible for your rose . . ."
 "I am responsible for my rose," the little prince repeated, so that he would be sure to remember.
     </p>
   </article>
-  <section class="side">
+  <section className="side">
     <h1>About</h1>
     
     <p>
